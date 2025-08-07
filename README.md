@@ -1,28 +1,107 @@
 # KNN from Scratch Flower and News Classification with Custom Evaluation Metrics
-This repository contains a Python implementation of the **K-Nearest Neighbors (KNN)** classification algorithm from scratch. It also includes custom implementations of key evaluation metrics and applies the classifier to both the Iris flower dataset and a custom News dataset (sports vs. politics).
+
+This project demonstrates a custom implementation of the **K-Nearest Neighbors (KNN)** algorithm using Python. It includes performance evaluation with metrics such as **accuracy**, **precision**, **recall**, **F1-score**, and **confusion matrix**, applied to:
+
+- 🌸 The Iris Dataset
+- 📰 A custom News Dataset (Sports vs Politics)
 
 ---
 
-## Features
+## 📌 Project Objectives
 
-- KNN algorithm implemented without using machine learning libraries.
-- Custom evaluation metrics:
-  - Accuracy
-  - Confusion Matrix
-  - Precision
-  - Recall
-  - F1-Score
-- Text vectorization using TF-IDF for the News dataset.
-- Parameter tuning for the optimal number of neighbors (*k*) and train-test split ratio.
-- Performance comparison with Scikit-learn's KNN classifier.
+- Implement KNN from scratch (no external ML libraries).
+- Apply it to real-world datasets.
+- Evaluate model performance using custom metric functions.
+- Compare results with scikit-learn's implementation.
 
 ---
 
-## Datasets
+## 📊 Datasets Used
 
-- **Iris Dataset:** Classic machine learning dataset with 150 flower samples classified into 3 species.
-- **News Dataset:** Custom dataset containing 50 sports and 50 politics news article sentences labeled accordingly.
+### 🌸 Iris Dataset
+- Classic dataset with 150 flower samples (Setosa, Versicolor, Virginica).
+- Features: Petal length, petal width, etc.
+- Multiclass classification.
+
+### 📰 News Dataset
+- Custom dataset with 50 sports and 50 politics article snippets.
+- Preprocessed using TF-IDF vectorization.
+- Binary classification.
 
 ---
 
+## ⚙️ Implementation Details
+
+- Distance Metric: **Euclidean Distance**
+- Parameters:
+  - `k`: Number of neighbors
+  - `train-test split`: Adjustable
+- Vectorization: `TfidfVectorizer` for text data
+- All metrics implemented from scratch.
+
+---
+
+## 📏 Evaluation Metrics
+
+### ✅ Accuracy
+Proportion of correct predictions.
+
+\[
+\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
+\]
+
+---
+
+### 🎯 Precision
+How many predicted positives are actual positives.
+
+\[
+\text{Precision} = \frac{TP}{TP + FP}
+\]
+
+---
+
+### 🔁 Recall
+How many actual positives were correctly predicted.
+
+\[
+\text{Recall} = \frac{TP}{TP + FN}
+\]
+
+---
+
+### 🎯 F1 Score
+Harmonic mean of precision and recall.
+
+\[
+\text{F1 Score} = \frac{2 \times \text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+\]
+
+---
+
+### 📉 Confusion Matrix
+Summarizes prediction results.
+
+\[
+\begin{bmatrix}
+TN & FP \\
+FN & TP
+\end{bmatrix}
+\]
+
+Where:
+- TP: True Positive
+- TN: True Negative
+- FP: False Positive
+- FN: False Negative
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/knn-from-scratch.git
+cd knn-from-scratch
 
