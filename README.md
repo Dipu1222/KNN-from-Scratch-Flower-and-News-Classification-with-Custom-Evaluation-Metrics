@@ -46,9 +46,7 @@ This project demonstrates a custom implementation of the **K-Nearest Neighbors (
 ### ✅ Accuracy
 Proportion of correct predictions.
 
-\[
-\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
-\]
+(TP+TN)/(TP+TN+FP+FN)
 
 ---
 
