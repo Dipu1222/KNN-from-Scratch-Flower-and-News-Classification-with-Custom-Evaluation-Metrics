@@ -73,13 +73,7 @@ Harmonic mean of precision and recall.
 
 ### 📉 Confusion Matrix
 Summarizes prediction results.
-
-\[
-\begin{bmatrix}
-TN & FP \\
-FN & TP
-\end{bmatrix}
-\]
+A table layout that visualizes the performance of the classification model by displaying counts of TP, TN, FP, and FN.
 
 Where:
 - TP: True Positive
@@ -88,12 +82,3 @@ Where:
 - FN: False Negative
 
 ---
-
-## 🚀 How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/knn-from-scratch.git
-cd knn-from-scratch
-
