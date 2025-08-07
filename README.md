@@ -2,12 +2,12 @@
 
 This project demonstrates a custom implementation of the **K-Nearest Neighbors (KNN)** algorithm using Python. It includes performance evaluation with metrics such as **accuracy**, **precision**, **recall**, **F1-score**, and **confusion matrix**, applied to:
 
-- 🌸 The Iris Dataset
-- 📰 A custom News Dataset (Sports vs Politics)
+- The Iris Dataset
+- A custom News Dataset (Sports vs Politics)
 
 ---
 
-## 📌 Project Objectives
+##  Project Objectives
 
 - Implement KNN from scratch (no external ML libraries).
 - Apply it to real-world datasets.
@@ -18,19 +18,19 @@ This project demonstrates a custom implementation of the **K-Nearest Neighbors (
 
 ## 📊 Datasets Used
 
-### 🌸 Iris Dataset
+###  Iris Dataset
 - Classic dataset with 150 flower samples (Setosa, Versicolor, Virginica).
 - Features: Petal length, petal width, etc.
 - Multiclass classification.
 
-### 📰 News Dataset
+###  News Dataset
 - Custom dataset with 50 sports and 50 politics article snippets.
 - Preprocessed using TF-IDF vectorization.
 - Binary classification.
 
 ---
 
-## ⚙️ Implementation Details
+##  Implementation Details
 
 - Distance Metric: **Euclidean Distance**
 - Parameters:
@@ -41,7 +41,7 @@ This project demonstrates a custom implementation of the **K-Nearest Neighbors (
 
 ---
 
-## 📏 Evaluation Metrics
+##  Evaluation Metrics
 
 ### ✅ Accuracy
 Proportion of correct predictions.
