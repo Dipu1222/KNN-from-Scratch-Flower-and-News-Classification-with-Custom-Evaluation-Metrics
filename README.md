@@ -53,27 +53,21 @@ Proportion of correct predictions.
 ### 🎯 Precision
 How many predicted positives are actual positives.
 
-\[
-\text{Precision} = \frac{TP}{TP + FP}
-\]
+TP/(TP+ FP)
 
 ---
 
 ### 🔁 Recall
 How many actual positives were correctly predicted.
 
-\[
-\text{Recall} = \frac{TP}{TP + FN}
-\]
+TP/(TP+ FP)
 
 ---
 
 ### 🎯 F1 Score
 Harmonic mean of precision and recall.
 
-\[
-\text{F1 Score} = \frac{2 \times \text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-\]
+2{(Precision ×Recall)/(Precision+Recall)}
 
 ---
 
